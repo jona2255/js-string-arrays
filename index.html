@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Analizador de palabras</title>
     <script src="js/analiza-palabras.js"></script>
     <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
-
-    <form>
-        <label for="nombres">Palabras: </label>
-        <input type="text" name="nombres" id="nombres">
+    <form class="col">
+        <span>Palabras: </span>
+        <textarea name="textarea" cols="30" rows="10"></textarea>
         <input type="submit" id="boton" value="Procesar">
     </form>
-
 </body>
 
 </html>
