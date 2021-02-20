@@ -2,7 +2,7 @@ function analizaPalabras(palabras) {
 
     for (const [i, palabra] of palabras.entries()) {
         console.log("######################")
-        console.log(`Palabra ${i}: ${palabra}`);
+        console.log(`Palabra ${i + 1}: ${palabra}`);
         console.log(`Nº de caracteres: ${palabra.length}`);
 
         const letras = palabra.split("").reduce((acc, value) => acc + "-" + value);
